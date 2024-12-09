@@ -1,0 +1,33 @@
+import streamlit as st
+
+entitiesSelection = [
+    'Secretaría de Gobierno',
+    'Secretaría de Paz y Cultura Ciudadana',
+    'Secretaría de Seguridad y justicia',
+    'Secretaría de Gestión del riesgo de emergencias y desastres',
+    'Secretaría de Bienestar social',
+    'Secretaría de Salud pública',
+    'Secretaría de Educación',
+    'Secretaría de Desarrollo económico',
+    'Secretaría de Cultura',
+    'Secretaría de Deporte y la recreación',
+    'Secretaría de Desarrollo territorial y participacion ciudana',
+    'Secretaría de Movilidad',
+    'Secretaría de Infraestructura',
+    'Secretaría de Vivienda social y hábitat',
+    'Secretaría de Turismo',
+    'Departamento administrativo Turismo',
+    'Departamento administrativo Gestión juridica pública',
+    'Departamento administrativo Contro interno',
+    'Departamento administrativo Control disciplinario interno',
+    'Departamento administrativo Desarrollo e innovacion institucional',
+    'Departamento administrativo Hacienda municipal',
+    'Departamento administrativo Planeacion municipal',
+    'Departamento administrativo Tecnogias de la informacion y las comunicaciones',
+    'Departamento administrativo Contratación pública',
+    'Departamento administrativo Gestion del medio ambiente - DAGMA',
+    'Unidad administrativa especial Estudio de grabacion takeshima',
+    'Unidad administrativa especial Servicios públicos municipales',
+    'Unidad administrativa especial Gestion de bienes y servicios',
+    'Unidad administrativa especial Protección animal'
+]
